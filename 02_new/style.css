@@ -43,7 +43,7 @@ body{
     font-size: 16px;
 }
 
-.hero-section{
+/* .hero-section{
      background:url('https://zairzest.zairza.co.in/static/media/auth_bg.6f3fffecc27bb1aef6e1.webp');
      display: flex;
      flex-direction: column;
@@ -53,7 +53,7 @@ body{
      width: 100vw;
      padding: 5rem;
 
-}
+} */
 
 /* signin */
 .login_left{
