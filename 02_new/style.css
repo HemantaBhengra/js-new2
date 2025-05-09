@@ -9,7 +9,7 @@ body{
     width: 100%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    /* overflow: hidden; */
+    /* overflow: hidden;  */
 }
 
 .navbar{
@@ -19,11 +19,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+    position: fixed;
 }
 
 .navLogo{
     color: white;
+    margin-left: 5rem;
 }
 .navLogo h1 span{
     color: #38ccff;
@@ -40,6 +41,18 @@ body{
     text-decoration: none;
     color: white;
     font-size: 16px;
+}
+
+.hero-section{
+     background:url('https://zairzest.zairza.co.in/static/media/auth_bg.6f3fffecc27bb1aef6e1.webp');
+     display: flex;
+     flex-direction: column;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     width: 100vw;
+     padding: 5rem;
+
 }
 
 /* signin */
