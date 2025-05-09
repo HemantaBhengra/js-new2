@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.navbar{
+    height: 84px;
+    width: 100vw;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.navLogo{
+    color: white;
+}
+.navLogo h1 span{
+    color: #38ccff;
+}
+.navright{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    gap: 5rem;
+    padding: 32px;
+}
+
+.navright a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* signin */
+.login_left{
+    flex:2.5;
+    background:url('https://zairzest.zairza.co.in/static/media/auth_bg.6f3fffecc27bb1aef6e1.webp');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-size: contain; */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.login_left h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+
+
+}
+.login_left p{
+    font-size: 16px;
+    font-weight: 100;
+    max-width: 400px;
+    margin-bottom: 15px;
+
+}
+
+.login_left_contaner{
+    padding: 0 10rem;
+}
+
+.login_right{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.login_right h2{
+    font-size: 32px;
+    color: #38ccff;
+    margin-bottom: 20px;
+    line-height: 2.5rem;
+}
+.login_right input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #5f5656;
+    border-radius: 10px;
+}
+
+.login_right p{
+    font-size: 17.6px;
+    color: #858585;
+}
+.log-p{
+    margin-bottom: 15px;
+
+}
+
+.input-field{
+    margin-bottom: 15px;
+}
+
+.links{
+    line-height: 1.5rem;
+}
+.links span{
+    color: #858585;
+}
+.links span a{
+    color: #38ccff;
+}
+.sign-in-btn{
+    height: 48px;
+    width: 112px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 8rem;
+    color:#01265d;
+    background-color: #38ccff;
+    border: none;
+}
