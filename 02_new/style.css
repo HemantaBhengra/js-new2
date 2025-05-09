@@ -10,6 +10,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     /* overflow: hidden;  */
+    background-color: #111111;
 }
 
 .navbar{
@@ -36,6 +37,9 @@ body{
     gap: 5rem;
     padding: 32px;
 }
+.navright a:hover{
+    color: blue;
+}
 
 .navright a{
     text-decoration: none;
@@ -44,7 +48,7 @@ body{
 }
 
 .hero-section{
-     background:url('https://zairzest.zairza.co.in/static/media/auth_bg.6f3fffecc27bb1aef6e1.webp');
+     background:url('https://zairzest.zairza.co.in/static/media/bg.90927ac0bfc04d80194b.png');
      display: flex;
      flex-direction: column;
      background-size: cover;
@@ -52,8 +56,54 @@ body{
      height: 100vh;
      width: 100vw;
      padding: 5rem;
+      /* box-shadow: 5px 5px 100px #000000 */
+}
+
+.hero-text{
+    color: white;
+    font-size: 25px;
+    padding: rem;
+    margin-right: 0rem;
+    padding-top: 7rem;
+    padding-left: 2rem;
+}
+
+.hero_butt button{
+    height: 45px;
+    width: 140px;
+    font-size: 14.8px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    
+}
+.transparent-button{
+    background-color: transparent;
+    border: 2px solid #38ccff;
+    color: #38ccff;
+    font-weight: 700;
+    
+}
+.register-button{
+    background-color: #38ccff;
+    color: #000000;
+    font-weight: 700;
+    border: none;
+}
+.transparent-button:hover{
+    transform: scale(1.04);
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 50px  #38ccff;
 
 }
+.register-button:hover{
+    transform: scale(1.04);
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 50px  #07bbf7;
+}
+
+
 
 /* signin */
 .login_left{
